@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects | Aman Gurjar</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        :root {
+            --primary: #1e293b;
+            --secondary: #2563eb;
+            --bg: #f1f5f9;
+            --card: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: var(--bg);
+            color: #111827;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: var(--primary);
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #93c5fd;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background-color: var(--card);
+            padding: 25px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: var(--secondary);
+        }
+
+        .card p {
+            font-size: 15px;
+        }
+
+        .status {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            background-color: #e0e7ff;
+            color: #1e40af;
+        }
+
+        footer {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Projects</h1>
+    <p>Aman Kumar | Web Development Practice</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="project.html">Projects</a>
+</nav>
+
+<div class="container">
+
+    <div class="grid">
+
+        <div class="card">
+            <h2>College Website</h2>
+            <p>
+                A multi-page college website created using HTML and CSS. This project
+                includes home, about, skills, and projects pages with a clean layout
+                and responsive design.
+            </p>
+            <span class="status">Completed</span>
+        </div>
+
+        <div class="card">
+            <h2>Personal Portfolio</h2>
+            <p>
+                A personal portfolio website to showcase my introduction, skills,
+                projects, and future goals. This project helped me understand
+                website structure and styling.
+            </p>
+            <span class="status">Completed</span>
+        </div>
+
+        <div class="card">
+            <h2>Confession Page</h2>
+            <p>
+                A fun and creative confession-style page designed for college students.
+                It focuses on layout design, typography, and content presentation.
+            </p>
+            <span class="status">Practice Project</span>
+        </div>
+
+        <div class="card">
+            <h2>Login Page Design</h2>
+            <p>
+                A basic login page UI designed using HTML and CSS. This project helped
+                me learn form design, input styling, and button effects.
+            </p>
+            <span class="status">Learning</span>
+        </div>
+
+        <div class="card">
+            <h2>Future JavaScript Project</h2>
+            <p>
+                A planned project to add interactivity using JavaScript such as
+                form validation, alerts, and dynamic content updates.
+            </p>
+            <span class="status">Upcoming</span>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>©️ 2026 Aman Kumar Web | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

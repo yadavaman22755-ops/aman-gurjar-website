@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Aman Gurjar</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        :root {
+            --primary: #1e293b;
+            --secondary: #2563eb;
+            --bg: #f1f5f9;
+            --card: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: var(--bg);
+            color: #111827;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: var(--primary);
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #93c5fd;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .contact-box {
+            background-color: var(--card);
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .contact-box h2 {
+            text-align: center;
+            color: var(--secondary);
+            margin-top: 0;
+        }
+
+        label {
+            font-weight: 600;
+            display: block;
+            margin-top: 15px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 8px;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+            font-size: 15px;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 12px;
+            background-color: var(--secondary);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1e40af;
+        }
+
+        .info {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 15px;
+            color: #374151;
+        }
+
+        footer {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Contact Me</h1>
+    <p>Aman Gurjar | Get in Touch</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="project.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="contact-box">
+        <h2>Send a Message</h2>
+
+        <form>
+            <label>Your Name</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Message</label>
+            <textarea placeholder="Write your message here..."></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="info">
+            <p><strong>Email:</strong> amangurjar9795@gmail.com</p>
+            <p><strong>Location:</strong> India</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>©️ 2026 Aman Gurjar  All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
